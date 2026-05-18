@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# PAPERGOBLIN
 
-## Getting Started
+**OCR reconstruction system for messy real-world documents.**
 
-First, run the development server:
+PAPERGOBLIN is a live OCR/document-intake prototype that turns receipts, labels, and scanned chaos into editable correction bubbles, structured operational packets, and backend telemetry the system can learn from.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Links
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Landing page:** https://papergoblin-landing.vercel.app/
+- **Live app:** https://ori-intake-papergoblin.vercel.app/
+- **Portfolio:** https://nullworks-portfolio.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What it solves
 
-## Learn More
+Real-world OCR fails because documents are messy:
 
-To learn more about Next.js, take a look at the following resources:
+- receipts are folded, faded, cropped, blurry, or damaged
+- labels have inconsistent formatting
+- scanned documents lose context
+- OCR output is often technically readable but operationally wrong
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+PAPERGOBLIN treats OCR failure as expected reality, not an edge case.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Core insight
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> The human is not fixing OCR.  
+> The human is labeling reality.  
+> Every correction becomes training signal.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Workflow
+
+```txt
+messy scan
+→ OCR extraction
+→ editable correction bubbles
+→ semantic labels
+→ structured operational packet
+→ backend telemetry
+→ learning loop```
+
+---
+
+## Built with
+
+- Next.js
+- TypeScript
+- Tailwind
+- Tesseract.js
+- Supabase
+- Vercel
+
+---
+
+## Why it matters
+
+Most AI demos fail where the real world gets messy:
+
+- bad scans
+- broken workflows
+- missing context
+- human correction
+- operational chaos
+
+PAPERGOBLIN demonstrates the missing layer around AI systems:
+
+- correction
+- validation
+- confidence
+- persistence
+- telemetry
+- recovery
+
+This is not just an OCR app. It is an applied AI workflow for turning chaotic real-world inputs into structured operational intelligence.
+
+---
+
+## Outcome
+
+Built and deployed during commercial airline travel using laptop + phone + in-flight constraints.
+
+That matters because operational systems should survive reality, not just look clean in a lab.
+
+---
+
+## Hiring signal
+
+PAPERGOBLIN demonstrates:
+
+- Applied AI product thinking
+- OCR workflow design
+- Human-in-the-loop correction UX
+- Operational telemetry
+- Full-stack deployment
+- Real-world constraint execution
+- Systems thinking from messy input to structured output
+
+---
+
+## Positioning
+
+I do not just build AI wrappers.
+
+I build the operational layer around AI failure.
+
+Correction, validation, telemetry, confidence, persistence, and recovery are what turn impressive model output into software people can actually trust.
