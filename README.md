@@ -4,15 +4,17 @@
 
 PAPERGOBLIN is a live OCR/document-intake prototype that turns receipts, labels, and scanned chaos into editable correction bubbles, structured operational packets, and backend telemetry the system can learn from.
 
-## Live Links
+---
 
-- **Landing page:** https://papergoblin-landing.vercel.app/
-- **Live app:** https://ori-intake-papergoblin.vercel.app/
-- **Portfolio:** https://nullworks-portfolio.vercel.app/
+**LIVE LINKS**
+
+- Landing page: https://papergoblin-landing.vercel.app/
+- Live app: https://ori-intake-papergoblin.vercel.app/
+- Portfolio: https://nullworks-portfolio.vercel.app/
 
 ---
 
-## What it solves
+**WHAT IT SOLVES**
 
 Real-world OCR fails because documents are messy:
 
@@ -25,28 +27,27 @@ PAPERGOBLIN treats OCR failure as expected reality, not an edge case.
 
 ---
 
-## Core insight
+**CORE INSIGHT**
 
-> The human is not fixing OCR.  
-> The human is labeling reality.  
+> The human is not fixing OCR.
+> The human is labeling reality.
 > Every correction becomes training signal.
 
 ---
 
-## Workflow
+**WORKFLOW**
 
-```txt
-messy scan
-→ OCR extraction
-→ editable correction bubbles
-→ semantic labels
-→ structured operational packet
-→ backend telemetry
-→ learning loop```
+- messy scan
+- OCR extraction
+- editable correction bubbles
+- semantic labels
+- structured operational packet
+- backend telemetry
+- learning loop
 
 ---
 
-## Built with
+**BUILT WITH**
 
 - Next.js
 - TypeScript
@@ -57,7 +58,7 @@ messy scan
 
 ---
 
-## Why it matters
+**WHY IT MATTERS**
 
 Most AI demos fail where the real world gets messy:
 
@@ -80,7 +81,7 @@ This is not just an OCR app. It is an applied AI workflow for turning chaotic re
 
 ---
 
-## Outcome
+**OUTCOME**
 
 Built and deployed during commercial airline travel using laptop + phone + in-flight constraints.
 
@@ -88,7 +89,7 @@ That matters because operational systems should survive reality, not just look c
 
 ---
 
-## Hiring signal
+**HIRING SIGNAL**
 
 PAPERGOBLIN demonstrates:
 
@@ -102,7 +103,7 @@ PAPERGOBLIN demonstrates:
 
 ---
 
-## Positioning
+**POSITIONING**
 
 I do not just build AI wrappers.
 
