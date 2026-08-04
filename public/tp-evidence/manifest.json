@@ -1,1 +1,0 @@
-{"version":1,"kdf":"PBKDF2-SHA256","iterations":310000,"salt":"YS+dkx5Etr5NdhlYrNFB0Q==","compression":"gzip","cipher":"AES-GCM","pageCount":1340,"corpora":["corpus-0.json","corpus-1.json","corpus-2.json","corpus-3.json"]}
